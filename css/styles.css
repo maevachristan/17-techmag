@@ -1,10 +1,37 @@
+html {
+  background-color: #000000;
+}
+
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.cta-dark {
+  background-color: #000000;
+}
+
+.cta-light {
+  background-color: #e3f4ff;
+}
+
+.intro-section {
+  background-color: #e3f4ff;
+}
+
+.product-section div {
+  background-color: #e3f4ff;
+}
+
+.contact-section {
+  background-color: #e3f4ff;
+}
+
+.contact-section a {
+  background-color: #000000;
 }
