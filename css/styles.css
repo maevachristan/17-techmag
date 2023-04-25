@@ -12,20 +12,42 @@ img {
   max-width: 100%;
 }
 
+header {
+  background-image: url(../img/fond_header.webp);
+  background-size: cover;
+}
+
+.title-box {
+  background-color: #000000;
+  color: #e3f4ff;
+}
+
 .cta-dark {
   background-color: #000000;
+  color: #e3f4ff;
+  text-decoration: none;
 }
 
 .cta-light {
   background-color: #e3f4ff;
+  color: #000000;
+  text-decoration: none;
 }
 
 .intro-section {
   background-color: #e3f4ff;
 }
 
+.product-section h2 {
+  color: #e3f4ff;
+}
+
 .product-section div {
   background-color: #e3f4ff;
+}
+
+.product-section a {
+  color: #000000;
 }
 
 .contact-section {
@@ -34,4 +56,6 @@ img {
 
 .contact-section a {
   background-color: #000000;
+  color: #e3f4ff;
+  text-decoration: none;
 }
