@@ -1,10 +1,11 @@
 html {
-  background-color: #000000;
+  background-color: #e3f4ff;
 }
 
 body {
   max-width: 320px;
   margin: auto;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 img {
@@ -15,22 +16,46 @@ img {
 header {
   background-image: url(../img/fond_header.webp);
   background-size: cover;
+  padding: 25px;
 }
 
 .title-box {
   background-color: #000000;
   color: #e3f4ff;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+h1 {
+  padding: 0 20px;
+}
+
+.title-box p {
+  padding: 0 7px;
+}
+
+.cta-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .cta-dark {
   background-color: #000000;
   color: #e3f4ff;
+  margin: 25px 0 15px;
+  padding: 10px 15px;
+  border-radius: 12px;
+  font-size: 13px;
   text-decoration: none;
 }
 
 .cta-light {
   background-color: #e3f4ff;
   color: #000000;
+  padding: 9px 14px;
+  border-radius: 12px;
+  font-size: 13px;
   text-decoration: none;
 }
 
@@ -58,4 +83,8 @@ header {
   background-color: #000000;
   color: #e3f4ff;
   text-decoration: none;
+}
+
+footer {
+  color: #ffffff3a;
 }
